@@ -28,6 +28,24 @@ src/RadialUndistort
 src/FisheyeUndistort
 src/bundler
 
+lib/5point/x64
+lib/ann_1.1_char/x64
+lib/cblas/x64
+lib/clapack/x64
+lib/cminpack/x64
+lib/f2c/x64
+lib/getopt/x64
+lib/imagelib/x64
+lib/jpeg/x64
+lib/matrix/x64
+lib/sba-1.5/x64
+lib/sfm-driver/x64
+lib/zlib/zlib-1.2.3
+vc++/.vs
+vc++/Release
+vc++/Debug
+vc++/x64
+
 # Binaries we depend on
 bin/sift
 

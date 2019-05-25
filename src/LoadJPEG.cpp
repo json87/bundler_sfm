@@ -20,8 +20,8 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <jpeglib.h>
 
+#include "jpeglib.h"
 #include "image.h"
 
 void GetJPEGDimensions(const char *filename, int &w, int &h)

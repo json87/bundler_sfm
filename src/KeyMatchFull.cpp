@@ -20,8 +20,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <algorithm>
 
-#include "keys2a.h"
+#include "keys.h"
 
 int ReadFileList(char* list_in, std::vector<std::string>& key_files) {
     FILE* fp;

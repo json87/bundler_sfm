@@ -27,9 +27,9 @@
 #include <hash_map>
 #endif
 
-#ifdef WIN32
-#define isnan _isnan
-#endif
+//#ifdef WIN32
+//#define isnan _isnan
+//#endif
 
 #include "defines.h"
 #include "matrix.h"

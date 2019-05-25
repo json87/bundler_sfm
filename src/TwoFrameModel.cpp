@@ -25,9 +25,9 @@
 #include "qsort.h"
 #include "util.h"
 
-#ifdef WIN32
-#define isnan _isnan
-#endif
+//#ifdef WIN32
+//#define isnan _isnan
+//#endif
 
 static void ReadVector(FILE *f, int n, double *v)
 {
